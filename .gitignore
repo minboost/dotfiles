@@ -1,0 +1,33 @@
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# SublimeText projects
+*.sublime-project
+*.sublime-workspace
+
+# Compiled Python files
+*.pyc
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
