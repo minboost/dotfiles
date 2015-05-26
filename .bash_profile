@@ -3,8 +3,10 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:usr/local/bin:$PATH";
 
-# Ruby version manager
+# Ruby version manager / Ruby env
 export PATH="$HOME/.rvm/bin:$PATH";
+export PATH="$HOME/.rbenv/bin:$PATH";
+eval "$(rbenv init -)"
 
 # Android Studio
 export PATH"=~/Development/adt-bundle/sdk/platform-tools:$PATH";
@@ -33,6 +35,3 @@ shopt -s cdspell;
 for option in autocd globstar; do
 	shopt -s "$option" 2> /dev/null;
 done;
-
-#rbenv
-eval "$(rbenv init -)"
