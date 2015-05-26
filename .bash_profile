@@ -3,9 +3,6 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:usr/local/bin:$PATH";
 
-# Setting PATH for Python 3.4
-export PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:$PATH";
-
 # Ruby version manager
 export PATH="$HOME/.rvm/bin:$PATH";
 
