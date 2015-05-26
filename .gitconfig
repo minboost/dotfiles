@@ -171,7 +171,3 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
-
-[user]
-	name = minboost
-	email = min@minboost.com
