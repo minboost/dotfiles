@@ -12,6 +12,13 @@ eval "$(rbenv init -)"
 export PATH"=~/Development/adt-bundle/sdk/platform-tools:$PATH";
 export PATH"=~/Development/adt-bundle/sdk/tools:$PATH";
 
+# virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Projects
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
+source virtualenvwrapper.sh
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
