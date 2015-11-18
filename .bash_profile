@@ -3,21 +3,12 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:usr/local/bin:$PATH";
 
-# Ruby version manager / Ruby env
-export PATH="$HOME/.rvm/bin:$PATH";
-export PATH="$HOME/.rbenv/bin:$PATH";
-eval "$(rbenv init -)"
-
 # Android Studio
 export PATH"=~/Development/adt-bundle/sdk/platform-tools:$PATH";
 export PATH"=~/Development/adt-bundle/sdk/tools:$PATH";
 
-# virtualenvwrapper
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Projects
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
-export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
-source virtualenvwrapper.sh
+# Python Development
+eval "$(pyenv init -)"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.

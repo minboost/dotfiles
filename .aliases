@@ -9,19 +9,13 @@ alias -- -="cd -"
 # Shortcuts
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias g="git"
 alias gd="cd ~/Google\ Drive"
+alias pr="cd ~/Projects"
+alias g="git"
 alias h="history"
 alias j="jobs"
-alias lsvenv="lsvirtualenv"
-alias mkvenv="mkvirtualenv"
-alias p="paver"
-alias rmvenv="rmvirtualenv"
+alias v="vagrant"
 alias st="sublime"
-alias up="vagrant up"
-alias ve="virtualenv"
-alias ved="deactivate"
-
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
