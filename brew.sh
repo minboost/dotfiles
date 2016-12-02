@@ -16,6 +16,10 @@ brew upgrade --all
 
 brew install openssl
 
+# QA
+brew install chromedriver
+brew install imagemagick
+
 # Python Development
 brew install pyenv
 brew install pyenv-virtualenv
