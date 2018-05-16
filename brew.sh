@@ -15,10 +15,8 @@ brew update
 brew upgrade --all
 
 brew install openssl
-
-# QA
-brew install chromedriver
 brew install imagemagick
+brew install bash-completions
 
 # Python Development
 brew install pyenv
@@ -26,7 +24,6 @@ brew install pyenv-virtualenv
 
 # JS
 brew install node
-brew install phantomjs
 
 # Remove outdated versions from the cellar.
 brew cleanup
