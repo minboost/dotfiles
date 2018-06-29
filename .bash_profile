@@ -3,10 +3,6 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:usr/local/bin:$PATH";
 
-# Android Studio
-export PATH"=~/Development/adt-bundle/sdk/platform-tools:$PATH";
-export PATH"=~/Development/adt-bundle/sdk/tools:$PATH";
-
 # Python Development
 eval "$(pyenv init -)"
 
