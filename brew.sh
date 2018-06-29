@@ -12,13 +12,19 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 brew update
 
 # Upgrade any already-installed formulae.
-brew upgrade --all
+brew upgrade
 
+# General
+brew install git
+brew install hub
+brew install bash-completions
 brew install openssl
 brew install imagemagick
-brew install bash-completions
 
-# Python Development
+# DevOps
+brew install kubernetes-helm
+
+# Python
 brew install pyenv
 brew install pyenv-virtualenv
 
