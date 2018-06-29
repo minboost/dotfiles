@@ -28,6 +28,9 @@ brew install kubernetes-helm
 brew install pyenv
 brew install pyenv-virtualenv
 
+# Go
+brew install go
+
 # JS
 brew install node
 

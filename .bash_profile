@@ -3,6 +3,10 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:usr/local/bin:$PATH";
 
+# Go path
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
