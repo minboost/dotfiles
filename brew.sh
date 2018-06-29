@@ -22,6 +22,7 @@ brew install openssl
 brew install imagemagick
 
 # DevOps
+brew install kops
 brew install kubernetes-helm
 
 # Python
