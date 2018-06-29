@@ -22,4 +22,4 @@ fi;
 unset doIt;
 
 # symlink SublimeText so it's available in CLI
-ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
