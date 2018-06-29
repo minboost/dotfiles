@@ -23,3 +23,6 @@ unset doIt;
 
 # symlink SublimeText so it's available in CLI
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
+
+# pip
+pip install awscli --upgrade --user
