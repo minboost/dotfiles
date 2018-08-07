@@ -20,6 +20,8 @@ brew install hub
 brew install bash-completions
 brew install openssl
 brew install imagemagick
+brew install gnupg
+brew install wget
 
 # DevOps
 brew install kops
