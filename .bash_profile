@@ -1,7 +1,7 @@
 [[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
 
 # Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:usr/local/bin:$PATH";
+export PATH="$HOME/bin:/usr/local/bin:$PATH";
 
 # Go path
 export GOPATH=$HOME/go
@@ -35,4 +35,4 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
-export PYENV_VERSION=3.6.4
+export PYENV_VERSION=3.6.6
