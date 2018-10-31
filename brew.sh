@@ -16,6 +16,7 @@ brew upgrade
 
 # General
 brew install git
+brew install jq
 brew install bash-completions
 brew install openssl
 brew install imagemagick
@@ -28,6 +29,14 @@ brew install kubernetes-helm
 # Python
 brew install pyenv
 brew install pyenv-virtualenv
+
+# Java 8
+brew tap caskroom/versions
+brew cask install java8
+
+# Scala
+brew install --HEAD olafurpg/scalafmt/scalafmt
+brew install sbt
 
 # Go
 brew install go
