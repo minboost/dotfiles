@@ -29,4 +29,5 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 
 # pip
 pip install --upgrade pip
+pip install pip-tools nose flake8
 pip install awscli --upgrade --user
