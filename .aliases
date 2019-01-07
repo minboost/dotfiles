@@ -25,6 +25,10 @@ alias build="npm run build"
 alias dev="npm run dev"
 alias p="paver"
 alias st="sublime"
+alias venv="pyenv virtualenv"
+alias venv2="pyenv virtualenv 2.7.15"
+alias py="pyenv activate"
+# alias fml="$(aws ecr get-login --region us-east-2 --profile default --no-include-email)"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
